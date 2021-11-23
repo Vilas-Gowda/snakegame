@@ -23,11 +23,30 @@ def clear():
 
 
 clear()
-a = [[' ' for i in range(100)] for j in range(20)]
+a = [[' ' for i in range(50)] for j in range(8)]
+for _1 in range(50):
+    a[0][_1] = '▮'
+    a[7][_1] = '▮'
+for _2 in range(8):
+    a[_2][0] = '▮'
+    a[_2][49] = '▮'
+
+    
 def output_ui():
     for i in a:
         for j in i:
             print(j , end = '')
-        print('\n')
+        print("\n")
+
+
+def wallencounter(x,y):
+    if x == 0 or x == 7 or y == 0 or y == 49:
+        print("wall = lose!".center(50))
+        print("try again ".center(50))
+        exit
+
+
+    
+
 
 
