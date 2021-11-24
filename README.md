@@ -6,3 +6,5 @@ day 2: ui part has seen some progress made the starting screen and the output sc
 the array part to design the output worked well now to work on the snake and the random food spawn
 
 day 3: ui logic mostly done working on its graphics and trying to make it look good. The movement of snake has also been written with a error that when it reaches over index program retuns error working on it 
+
+day 4: not much time available today some logic fixing and border desinging
